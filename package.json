@@ -1,0 +1,23 @@
+{
+  "name": "ythub",
+  "private": true,
+  "version": "1.0.0",
+  "homepage": "https://YOUR_USERNAME.github.io/YThub/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp dist/index.html dist/404.html",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.2.0",
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
