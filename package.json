@@ -2,7 +2,7 @@
   "name": "ythub",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://YOUR_USERNAME.github.io/YThub/",
+  "homepage": "https://smartbuye.github.io/YThub/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1"
   }
 }
