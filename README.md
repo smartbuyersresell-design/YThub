@@ -1,6 +1,6 @@
 # YThub
 
-GitHub Pages friendly frontend for media workflows.
+GitHub Pages friendly media UI.
 
 ## Run
 ```bash
@@ -9,11 +9,11 @@ npm run dev
 ```
 
 ## Deploy
-1. Replace `YOUR_USERNAME` in `package.json`.
-2. Replace `YOUR_API_DOMAIN_OR_SERVERLESS_ENDPOINT` in `App.jsx`.
+1. Push these files to your repo.
+2. Keep `homepage` as `https://smartbuye.github.io/YThub/`.
 3. Keep `base: "/YThub/"` in `vite.config.js`.
-4. Push to GitHub.
-5. Deploy via GitHub Pages or GitHub Actions.
+4. Run `npm install`.
+5. Run `npm run build` and deploy with GitHub Pages or GitHub Actions.
 
 ## Note
-This is a frontend UI. Real download/conversion needs your own backend or serverless API.
+MP4 to MP3 conversion works in the browser with FFmpeg WASM. YouTube download is a UI placeholder because it needs a backend.
